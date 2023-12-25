@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>lab4_misp_gubeev: Класс TableCipher</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">lab4_misp_gubeev
+   &#160;<span id="projectnumber">2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="classTableCipher-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс TableCipher</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс для шифрования и расшифрования шифра табличной маршрутной перестановки  
+ <a href="classTableCipher.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="TableCipher_8hpp_source.html">TableCipher.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a1e1f72ca00d9c6d17820a43f41fd0e73"><td class="memItemLeft" align="right" valign="top"><a id="a1e1f72ca00d9c6d17820a43f41fd0e73"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTableCipher.html#a1e1f72ca00d9c6d17820a43f41fd0e73">TableCipher</a> (const int &amp;skey)</td></tr>
+<tr class="memdesc:a1e1f72ca00d9c6d17820a43f41fd0e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Параметризованный конструктор для инициализации ключа <br /></td></tr>
+<tr class="separator:a1e1f72ca00d9c6d17820a43f41fd0e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d039e6d5d6f2fc9d9599f789f46a25"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTableCipher.html#a69d039e6d5d6f2fc9d9599f789f46a25">encrypt</a> (const string &amp;open_text)</td></tr>
+<tr class="memdesc:a69d039e6d5d6f2fc9d9599f789f46a25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Шифрование  <a href="classTableCipher.html#a69d039e6d5d6f2fc9d9599f789f46a25">Подробнее...</a><br /></td></tr>
+<tr class="separator:a69d039e6d5d6f2fc9d9599f789f46a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b0f521c5ed2a3a2e51b57752f0abf4"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTableCipher.html#a14b0f521c5ed2a3a2e51b57752f0abf4">decrypt</a> (const string &amp;cipher_text)</td></tr>
+<tr class="memdesc:a14b0f521c5ed2a3a2e51b57752f0abf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Расшифровка  <a href="classTableCipher.html#a14b0f521c5ed2a3a2e51b57752f0abf4">Подробнее...</a><br /></td></tr>
+<tr class="separator:a14b0f521c5ed2a3a2e51b57752f0abf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e44b17b083f7ebfc610079f543dbbd8"><td class="memItemLeft" align="right" valign="top"><a id="a0e44b17b083f7ebfc610079f543dbbd8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTableCipher.html#a0e44b17b083f7ebfc610079f543dbbd8">TableCipher</a> ()=delete</td></tr>
+<tr class="memdesc:a0e44b17b083f7ebfc610079f543dbbd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запрещающий конструктор без параметров <br /></td></tr>
+<tr class="separator:a0e44b17b083f7ebfc610079f543dbbd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b74d7bcf651e32d6e5019b8b1218b85"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTableCipher.html#a3b74d7bcf651e32d6e5019b8b1218b85">isRussianChar</a> (wchar_t c)</td></tr>
+<tr class="memdesc:a3b74d7bcf651e32d6e5019b8b1218b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверка символа  <a href="classTableCipher.html#a3b74d7bcf651e32d6e5019b8b1218b85">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3b74d7bcf651e32d6e5019b8b1218b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:aaba8d844f9bb60de90c823fdbf21bb4b"><td class="memItemLeft" align="right" valign="top"><a id="aaba8d844f9bb60de90c823fdbf21bb4b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>key</b></td></tr>
+<tr class="separator:aaba8d844f9bb60de90c823fdbf21bb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс для шифрования и расшифрования шифра табличной маршрутной перестановки </p>
+<p>Ключ устанавливается в конструкторе. Для зашифровывания и расшифровывания предназначены методы encrypt и decrypt. </p><dl class="section warning"><dt>Предупреждения</dt><dd>Реализация только для русского языка </dd></dl>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a14b0f521c5ed2a3a2e51b57752f0abf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14b0f521c5ed2a3a2e51b57752f0abf4">&#9670;&nbsp;</a></span>decrypt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string TableCipher::decrypt </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>cipher_text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Расшифровка </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cipher_text</td><td>Текст который нужно расшифровать. Не должен быть пустой строкой. Можно использовать прописные и строчные буквы. Символы пунктуации и цифры использовать нельзя </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Расшифрованная строка </dd></dl>
+<dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classcipher__error.html" title="Класс обработки исключений.">cipher_error</a>,если</td><td>текст пустой или содержит что-то кроме букв русского алфавита </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a69d039e6d5d6f2fc9d9599f789f46a25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69d039e6d5d6f2fc9d9599f789f46a25">&#9670;&nbsp;</a></span>encrypt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string TableCipher::encrypt </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>open_text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Шифрование </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">open_text</td><td>Текст который нужно зашифровать. Можно использовать прописные и строчные буквы. Символы пунктуации и цифры использовать нельзя </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Зашифрованная строка </dd></dl>
+<dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classcipher__error.html" title="Класс обработки исключений.">cipher_error</a>,если</td><td>текст пустой или содержит что-то кроме букв русского алфавита </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3b74d7bcf651e32d6e5019b8b1218b85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b74d7bcf651e32d6e5019b8b1218b85">&#9670;&nbsp;</a></span>isRussianChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TableCipher::isRussianChar </td>
+          <td>(</td>
+          <td class="paramtype">wchar_t&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Проверка символа </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>Символ который нужно проверить, является ли он русской буквой. Если есть другие символы, то будут возбуждаться исключения </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>True если символ является русской буквой, False если не является русской буквой <br  />
+ </dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="TableCipher_8hpp_source.html">TableCipher.hpp</a></li>
+<li>TableCipher.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
